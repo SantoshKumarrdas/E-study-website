@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4{
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    background-color:white;
+    display: flex;
+    overflow: hidden;
+    border-bottom:1px solid rgb(214, 214, 214);
+}
+.navlogo{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100%;
+    width:15%;
+}
+.navlogo h1{
+    font-size:40px;
+}
+.navhome{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+   
+    width:70%;
+}
+.navhome a{
+    color: black;
+    text-decoration: none;
+    font-size:22px;
+    font-family: sans-serif;
+}
+.navhome a:hover{
+     text-decoration: underline;
+}
+.singIn{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+    width: 15%;
+}
+.singIn a{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    color:white;
+
+   
+}
+.singbtn{
+    width:70px;
+    height:35px;
+    background-color: rgb(123, 123, 151);
+    border-radius: 5px;
+}
+.bar{
+    display: none;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline:10px ;
+}
+.heroimg{
+    width: 100%;
+}
+.course{
+    width: 100%;
+    height:500px;
+    /* background-color: blue; */
+}
+.class1-3,.class3-7,.class8-12{
+    width:35%;
+    height:400px;
+    background-color: rgb(206, 195, 216);
+    background-image: url("explorecourse1.png");
+    background-size: cover;
+    line-height:60px;
+    padding-left:30px;
+    border-radius:10px;
+}
+.course0{
+    padding-top:14px;
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(202, 110, 110); */
+}
+.course0 p{
+    font-size:29px;
+    font-weight:700;
+    font-family: sans-serif;
+}
+.course1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap:1%;
+    margin-top:20px;
+}
+.classexp{
+    /* height:300x;
+    width:100px; */
+    padding-bottom: 5px;
+    background-color: cadetblue;
+}
+.class1-3 a{
+    text-decoration: none;
+}
+.cbse{
+    height:45px;
+    width:120px;
+    margin-top:220px;
+    background-color: rgb(211, 134, 134);
+    border:1px solid white;
+    border-radius:10px;
+    
+}
+.cbse:hover{
+    height:40px;
+
+}
+.cbse a{
+    color: beige;
+    text-decoration: none;
+}
+#icic{
+    margin-left:70px;
+}
+.class1-3 h1{
+    font-family: sans-serif;
+    color:rgb(0, 0, 0)
+}
+.courseforkid{
+    width: 100%;
+    height: 500px;
+    /* background-image: url(super-kid.webp); */
+    /* background-color: aquamarine; */
+    background-size: contain;
+    
+}
+.LKG{
+    /* background-image: url("lkg");
+    background-size: cover; */
+    background-color: rgb(170, 170, 162);
+}
+.kidtitle{
+    width: 100%;
+    height:50px;
+    display:flex;
+    /* background-color: blue; */
+}
+.lkg1{
+    width: 60%;
+    height:450px;
+    /* border:2px solid red; */
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.LKG{
+    height:210px;
+    width:310px;
+    border:1px solid rgb(160, 132, 132);
+    line-height:30px;
+    padding-left: 15px;
+    padding-top:12px;
+    border-radius: 10px;
+    background-image: url(super-kid.webp);
+    background-size: cover;
+
+}
+.LKG p{
+    color:black;
+}
+.childimg{
+    width: 40%;
+    height: 450px;
+    /* border:2px solid red; */
+
+}
+.lkg2{
+    display: flex;
+}
+.cbse1{
+    height: 40px;
+    width:120px;
+    margin-top:38px;
+    background-color: rgb(48, 42, 42);
+    border:1px solid rgb(182, 52, 52);
+    border-radius: 10px;
+}
+.cbse1:hover{
+    height:40px;
+    filter:brightness(2);
+    cursor: pointer;
+}
+.exm{
+    width: 100%;
+    height:710px;
+    /* background-color: blue; */
+}
+.jobtitle{
+    justify-content: center;
+    height:70px;
+    padding-top:10px;
+    width: 100%;
+    line-height:35px;
+    /* background-color: brown; */
+}
+.jobdiv{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px 10px;
+    flex-wrap: wrap;
+    
+}
+#jobprep{
+    height:300px;
+    margin-top: 10px;
+    width: 350px;
+    background-color:rgb(186, 154, 218);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height:50px;
+    background-image: url(eng.jpg);
+    background-size: cover;
+}
+.jobbtn{
+    height:40px;
+    width:100px;
+    border: none;
+    border-radius:10px;
+    background-color: rgb(63, 60, 60);
+}
+.jobbtn1{
+    height: 40px;
+    width:140px;
+    background-color:rgb(82, 77, 77);
+    margin-top:70px;
+    margin-right: 10px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+
+.footter {
+    height:500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(17, 17, 17);
+  }
+  .footer1 {
+    height: 100%;
+    width:25%;
+    line-height:25px;
+  }
+  .footer1 h4 {
+    color: wheat;
+    margin-top: 90px;
+  }
+  .footer1 li a{
+    color:white;
+    font-family:sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: left;
+  }
+  .footer2 {
+    height: 100%;
+    width:30%;
+    line-height:30px;
+    
+  }
+  .footer2 h4 {
+    color: wheat;
+    margin-left:px;
+    margin-top: 90px;
+  }
+  .footer2 li a{
+    color:white;
+    font-family:sans-serif;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: left;
+  }
+  .footer3 {
+    height: 100%;
+    width: 20%;
+  }
+  .footer3 h4 {
+    color: wheat;
+    margin-top: 90px;
+  }
+  .footer3 ul li {
+    color:white;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: sans-serif;
+  }
+  .footer4 {
+    height: 100%;
+    width: 20%;
+  }
+  .footer4 h4 {
+    color: wheat;
+    margin-left: px;
+    margin-top: 90px;
+  }
+  .footer4 p {
+    color:white;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: left;
+    line-height:30px;
+  }
+  
+
+  .copyright{
+    width: 100%;
+    height: 70px;
+    border-top: 2px solid rgb(221, 185, 185);
+    background-color:rgb(65, 57, 57);
+    text-align: center;
+  }
+  
